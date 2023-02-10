@@ -12,7 +12,7 @@ const Navbar = () => {
     >
       <div className="px-8 flex items-center gap-2 text-3xl">
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+          <img src={logo} alt="CultureClues" style={{ width: "88px" }} />
         </Link>
         <div>
           <span>Culture</span>
