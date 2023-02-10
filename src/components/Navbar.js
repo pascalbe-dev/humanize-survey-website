@@ -6,7 +6,7 @@ import logo from "../img/logo.svg";
 const Navbar = () => {
   return (
     <nav
-      className="flex justify-between items-center shadow-md h-24"
+      className="flex justify-between items-center shadow-lg bg-white z-50 h-24 sticky top-0"
       role="navigation"
       aria-label="main-navigation"
     >
@@ -28,8 +28,13 @@ const Navbar = () => {
             Warum CulutreClues?
           </Link>
         </li>
-        <li className="p-4 bg-orange-600 rounded-lg text-white">
-          <Link to="https://humanize.works">Jetzt direkt loslegen</Link>
+        <li>
+          <Link
+            className="p-4 bg-orange-600 rounded-lg text-white"
+            to="https://humanize.works"
+          >
+            Jetzt direkt loslegen
+          </Link>
         </li>
       </ul>
     </nav>

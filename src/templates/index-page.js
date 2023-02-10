@@ -1,13 +1,10 @@
 import { graphql, Link } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
 import React from "react";
 
 import Features from "../components/Features";
-import FullWidthImage from "../components/FullWidthImage";
 import Layout from "../components/Layout";
 
-// eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
   title,
@@ -17,11 +14,8 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
-
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">

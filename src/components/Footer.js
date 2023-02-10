@@ -1,114 +1,43 @@
-import * as React from "react";
 import { Link } from "gatsby";
-
-import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+import * as React from "react";
 
 const Footer = () => {
-  
-    return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-              </div>
-            </div>
+  return (
+    <footer>
+      <section className="bg-slate-800 text-gray-100 flex items-center justify-between p-16 text-sm">
+        <div className="flex flex-col gap-4">
+          <div>
+            <span>Culture</span>
+            <span>Clues</span>
           </div>
+          <span>Ein Tool der Humanize.works UG.</span>
         </div>
-      </footer>
-    );
+        <div className="flex flex-col gap-2">
+          <span className="uppercase">Rechtliches</span>
+          <ul className="underline">
+            <li>
+              <Link to="https://humanize.works/privacy" target={"_blank"}>
+                Datenschutzerklärung
+              </Link>
+            </li>
+            <li>
+              <Link to="https://humanize.works/impressum" target={"_blank"}>
+                Impressum
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className="bg-slate-900 text-gray-100 flex items-center justify-between p-4 text-xs">
+        <span className="uppercase">
+          © copyright 2023 Humanize.works UG (haftungsbeschränkt)
+        </span>
+        <span className="uppercase">
+          made with ❤ by the Humanize.works team
+        </span>
+      </section>
+    </footer>
+  );
 };
 
 export default Footer;
