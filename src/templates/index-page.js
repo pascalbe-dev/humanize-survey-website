@@ -4,8 +4,8 @@ import React from "react";
 import Cta from "../components/Cta";
 import How from "../components/How";
 import Landing from "../components/Landing";
-
 import Layout from "../components/Layout";
+import PrimarySurfaceCrossing from "../components/PrimarySurfaceCrossing";
 import Why from "../components/Why";
 
 export const IndexPageTemplate = ({
@@ -21,6 +21,7 @@ export const IndexPageTemplate = ({
     <>
       <Landing />
       <How />
+      <PrimarySurfaceCrossing />
       <Why />
       <Cta />
     </>

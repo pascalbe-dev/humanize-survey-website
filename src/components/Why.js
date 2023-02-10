@@ -1,14 +1,20 @@
 import * as React from "react";
+import why from "../img/why.svg";
 
 const Why = () => {
   return (
-    <section
-      id="why"
-      className="flex justify-center items-center gap-16 p-16 bg-slate-700 text-white"
-    >
-      <h2 className="text-3xl font-display">
-        Probier' es doch einfach mal aus!
-      </h2>
+    <section id="why" className="flex flex-col gap-8 px-24 py-16">
+      <h2 className="font-display text-3xl">Warum CultureClues?</h2>
+      <div className="flex justify-between">
+        <div className="flex-1">{/* TODO */}</div>
+        <div className="flex-1 flex items-center justify-center">
+          <img
+            src={why}
+            alt="Vorteile-Illustration"
+            className="min-h-[300px] max-h-[500px]"
+          />
+        </div>
+      </div>
     </section>
   );
 };
