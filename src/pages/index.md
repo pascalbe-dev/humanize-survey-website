@@ -1,9 +1,10 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Der einfachste Weg, Eure New-Work Kultur zu messen
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: >
+  Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit CultureClues helfen wir euch dabei, euer volles Potential zu entfalten.
 mainpitch:
   title: Why Kaldi
   description: >
