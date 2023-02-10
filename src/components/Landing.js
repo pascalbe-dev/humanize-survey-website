@@ -33,7 +33,7 @@ const Landing = () => {
           />
         </div>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center animate-bounce">
         <Link to="#how">
           <img src={down} alt="Scrollen" className="h-30" />
         </Link>
