@@ -2,11 +2,10 @@ import { Link } from "gatsby";
 import React from "react";
 import logo from "../img/logo.svg";
 
-//  TODO: use theming in tailwind
 const Navbar = () => {
   return (
     <nav
-      className="flex justify-between items-center shadow-lg bg-white z-50 h-24 sticky top-0"
+      className="flex justify-between items-center shadow-lg bg-surface z-50 h-24 sticky top-0"
       role="navigation"
       aria-label="main-navigation"
     >
@@ -16,10 +15,10 @@ const Navbar = () => {
         </Link>
         <div>
           <span>Culture</span>
-          <span>Clues</span>
+          <span className="text-onSurfaceDisabled">Clues</span>
         </div>
       </div>
-      <ul className="flex flex-row items-center gap-8 py-4 px-8 text-lg">
+      <ul className="flex flex-row items-center gap-8 py-4 px-8 text-lg text-onSurfaceMedium">
         <li>
           <Link to="#how">Wie es funktioniert?</Link>
         </li>
@@ -30,7 +29,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="p-4 bg-orange-600 rounded-lg text-white"
+            className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
             to="https://humanize.works"
           >
             Jetzt direkt loslegen

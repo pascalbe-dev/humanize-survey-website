@@ -12,14 +12,14 @@ const Landing = () => {
           <h1 className="text-5xl font-display">
             Der einfachste Weg, Eure New-Work Kultur zu messen
           </h1>
-          <p>
+          <p className="text-onSurfaceMedium">
             Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben
             höhere Zufriedenheit, Innovationskraft und Produktivität. Mit
             CultureClues helfen wir euch dabei, euer volles Potential zu
             entfalten.
           </p>
           <Link
-            className="p-4 bg-orange-600 rounded-lg text-white"
+            className="p-4 rounded-lg bg-accent text-onAccentHigh"
             to="https://humanize.works"
           >
             Jetzt direkt loslegen

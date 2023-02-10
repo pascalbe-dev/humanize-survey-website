@@ -4,11 +4,11 @@ import * as React from "react";
 const Footer = () => {
   return (
     <footer>
-      <section className="bg-slate-800 text-gray-100 flex items-center justify-between p-16 text-sm">
+      <section className="flex items-center justify-between p-16 text-sm bg-primaryDarker text-onPrimaryHigh">
         <div className="flex flex-col gap-4">
           <div className="font-display">
             <span>Culture</span>
-            <span>Clues</span>
+            <span className="text-onPrimaryMedium">Clues</span>
           </div>
           <span>Ein Tool der Humanize.works UG.</span>
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <section className="bg-slate-900 text-gray-100 flex items-center justify-between p-4 text-xs">
+      <section className="text-gray-100 flex items-center justify-between p-4 text-xs bg-primaryDarkest text-onPrimaryMedium">
         <span className="uppercase">
           © copyright 2023 Humanize.works UG (haftungsbeschränkt)
         </span>
