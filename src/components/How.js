@@ -16,7 +16,7 @@ const How = ({ steps }) => {
             key={step.title}
             className="flex justify-between gap-32 items-center p-4 even:flex-row-reverse"
           >
-            <div className="flex flex-col gap-4 items-start">
+            <div className="flex flex-col gap-4 items-start max-w-[800px]">
               <h3 className="text-2xl">{step.title}</h3>
               <p className="text-onPrimaryMedium">{step.description}</p>
               <Link
@@ -26,11 +26,11 @@ const How = ({ steps }) => {
                 {step.cta.title}
               </Link>
             </div>
-            <div className="flex-1 flex items-center justify-center">
+            <div className="flex-1 flex items-center justify-center max-w-[400px]">
               <img
                 src={"../img/" + step.image}
                 alt="Schritt-Illustration"
-                className="w-[300px]"
+                className="min-w-[300px]"
               />
             </div>
           </li>
