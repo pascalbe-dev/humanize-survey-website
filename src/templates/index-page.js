@@ -12,13 +12,14 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   valuePropositions,
+  steps,
   description,
   intro,
 }) => {
   return (
     <>
       <Landing slogan={heading} description={subheading} />
-      <How />
+      <How steps={steps} />
       <PrimarySurfaceCrossing />
       <Why valuePropositions={valuePropositions} />
       <Cta />
@@ -30,6 +31,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   valuePropositions: PropTypes.array,
+  steps: PropTypes.array,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -45,6 +47,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         valuePropositions={frontmatter.valuePropositions}
+        steps={frontmatter.steps}
       />
     </Layout>
   );
@@ -69,6 +72,15 @@ export const pageQuery = graphql`
         valuePropositions {
           title
           description
+        }
+        steps {
+          title
+          description
+          cta {
+            title
+            link
+          }
+          image
         }
         description
         intro {
