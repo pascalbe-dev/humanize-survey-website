@@ -1,67 +1,37 @@
 import { Link } from "gatsby";
-import React, { useState } from "react";
-import github from "../img/github-icon.svg";
+import React from "react";
 import logo from "../img/logo.svg";
 
+//  TODO: use theming in tailwind
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(false);
-
   return (
     <nav
-      className="navbar is-transparent"
+      className="flex justify-between items-center shadow-md h-24"
       role="navigation"
       aria-label="main-navigation"
     >
-      <div className="container">
-        <div className="navbar-brand">
-          <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-          </Link>
-          {/* Hamburger menu */}
-          <button
-            className={`navbar-burger burger ${isActive && "is-active"}`}
-            aria-expanded={isActive}
-            onClick={() => setIsActive(!isActive)}
-          >
-            <span />
-            <span />
-            <span />
-          </button>
+      <div className="px-8 flex items-center gap-2 text-3xl">
+        <Link to="/" className="navbar-item" title="Logo">
+          <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+        </Link>
+        <div>
+          <span>Culture</span>
+          <span>Clues</span>
         </div>
-        <ul
-          id="navMenu"
-          className={` navbar-start has-text-centered navbar-menu ${
-            isActive && "is-active"
-          }`}
-        >
-          {/* TODO: inline override of padding is a result of refactoring
-                to a ul for accessibilty purposes, would like to see a css
-                re-write that makes this unneccesary.
-             */}
-          <li className="navbar-end has-text-centered">
-            <li className="navbar-item" style={{ padding: "0px" }}>
-              <Link className="navbar-item" to="/about">
-                Wie es funktioniert?
-              </Link>
-            </li>
-            <li className="navbar-item" style={{ padding: "0px" }}>
-              <Link className="navbar-item" to="/products">
-                Warum CulutreClues?
-              </Link>
-            </li>
-            <a
-              className="navbar-item"
-              href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <img src={github} alt="Github" />
-              </span>
-            </a>
-          </li>
-        </ul>
       </div>
+      <ul className={"flex flex-row items-center gap-8 py-4 px-8 text-lg"}>
+        <li>
+          <Link to="#how">Wie es funktioniert?</Link>
+        </li>
+        <li>
+          <Link className="navbar-item" to="#why">
+            Warum CulutreClues?
+          </Link>
+        </li>
+        <li className="p-4 bg-orange-600 rounded-lg text-white">
+          <Link to="https://humanize.works">Jetzt direkt loslegen</Link>
+        </li>
+      </ul>
     </nav>
   );
 };
