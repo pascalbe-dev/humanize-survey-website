@@ -10,16 +10,16 @@ const Navbar = () => {
       role="navigation"
       aria-label="main-navigation"
     >
-      <div className="px-8 flex items-center gap-2 text-3xl">
+      <div className="px-8 flex items-center gap-2 text-3xl font-display">
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="CultureClues" style={{ width: "88px" }} />
+          <img src={logo} alt="CultureClues" className="w-20" />
         </Link>
         <div>
           <span>Culture</span>
           <span>Clues</span>
         </div>
       </div>
-      <ul className={"flex flex-row items-center gap-8 py-4 px-8 text-lg"}>
+      <ul className="flex flex-row items-center gap-8 py-4 px-8 text-lg">
         <li>
           <Link to="#how">Wie es funktioniert?</Link>
         </li>

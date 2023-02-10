@@ -5,7 +5,10 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Lato"],
+      display: ["Itim"],
+    },
   },
   plugins: [],
 };

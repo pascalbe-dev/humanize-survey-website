@@ -9,7 +9,7 @@ const Landing = () => {
       <div />
       <div className="flex justify-between items-center gap-16 px-24">
         <div className="flex-1 flex flex-col items-start gap-8">
-          <h1 className="text-5xl">
+          <h1 className="text-5xl font-display">
             Der einfachste Weg, Eure New-Work Kultur zu messen
           </h1>
           <p>

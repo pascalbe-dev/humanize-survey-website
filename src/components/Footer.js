@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <section className="bg-slate-800 text-gray-100 flex items-center justify-between p-16 text-sm">
         <div className="flex flex-col gap-4">
-          <div>
+          <div className="font-display">
             <span>Culture</span>
             <span>Clues</span>
           </div>

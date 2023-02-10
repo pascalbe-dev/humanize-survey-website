@@ -6,6 +6,26 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [
+          `https://fonts.googleapis.com`,
+          `https://fonts.gstatic.com`,
+        ],
+        web: [
+          {
+            name: `Itim`,
+            file: `https://fonts.googleapis.com/css2?family=Itim:wght@400;600;700&display=swap`,
+          },
+          {
+            name: `Lato`,
+            file: `https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap`,
+          },
+        ],
+      },
+    },
     "gatsby-plugin-postcss",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
