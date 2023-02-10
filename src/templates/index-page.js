@@ -9,17 +9,14 @@ import PrimarySurfaceCrossing from "../components/PrimarySurfaceCrossing";
 import Why from "../components/Why";
 
 export const IndexPageTemplate = ({
-  image,
-  title,
   heading,
   subheading,
-  mainpitch,
   description,
   intro,
 }) => {
   return (
     <>
-      <Landing />
+      <Landing slogan={heading} description={subheading} />
       <How />
       <PrimarySurfaceCrossing />
       <Why />
@@ -29,11 +26,8 @@ export const IndexPageTemplate = ({
 };
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -46,13 +40,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   );
@@ -72,18 +61,8 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
         description
         intro {
           blurbs {
