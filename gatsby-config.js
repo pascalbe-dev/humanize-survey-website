@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "People & Culture Compass",
+    title: "CultureClues",
     description:
       "Der einfachste Weg, Eure New-Work Kultur zu messen: Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit CultureClues helfen wir euch dabei, euer volles Potential zu entfalten.",
   },

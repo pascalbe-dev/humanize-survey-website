@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet>
-        <html lang="en" />
+        <html className="scroll-smooth scroll-p-24" lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
 

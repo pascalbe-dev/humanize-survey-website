@@ -2,9 +2,11 @@ import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import Cta from "../components/Cta";
+import How from "../components/How";
 import Landing from "../components/Landing";
 
 import Layout from "../components/Layout";
+import Why from "../components/Why";
 
 export const IndexPageTemplate = ({
   image,
@@ -18,6 +20,8 @@ export const IndexPageTemplate = ({
   return (
     <>
       <Landing />
+      <How />
+      <Why />
       <Cta />
     </>
   );
