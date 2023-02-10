@@ -8,6 +8,13 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
+valuePropositions:
+  - title: Schnell & Einfach
+    description: Analysiere die New Work Kultur in deinem Team mit unseren vorgefertigten Analyse-Templates. Ohne Account - ohne Schnickschnack - ohne Kosten!
+  - title: Anonym & DSGVO-konform
+    description: Unsere Analysen funktionieren ganz ohne persönliche Daten.
+  - title: Übersichtlich & Transparent
+    description: Wir bereiten die Ergebnisse transparent und übersichtlich für dich und dein Team auf. Ganz ohne nervige Excel-Bastelei - versprochen!
 intro:
   blurbs:
     - image: /img/coffee.png

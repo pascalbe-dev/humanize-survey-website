@@ -11,6 +11,7 @@ import Why from "../components/Why";
 export const IndexPageTemplate = ({
   heading,
   subheading,
+  valuePropositions,
   description,
   intro,
 }) => {
@@ -19,7 +20,7 @@ export const IndexPageTemplate = ({
       <Landing slogan={heading} description={subheading} />
       <How />
       <PrimarySurfaceCrossing />
-      <Why />
+      <Why valuePropositions={valuePropositions} />
       <Cta />
     </>
   );
@@ -28,6 +29,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
+  valuePropositions: PropTypes.array,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -42,6 +44,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
+        valuePropositions={frontmatter.valuePropositions}
       />
     </Layout>
   );
@@ -63,6 +66,10 @@ export const pageQuery = graphql`
       frontmatter {
         heading
         subheading
+        valuePropositions {
+          title
+          description
+        }
         description
         intro {
           blurbs {
