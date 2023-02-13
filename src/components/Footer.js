@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <section className="text-gray-100 flex items-center justify-between p-2 lg:p-4 text-xs bg-primaryDarkest text-onPrimaryMedium">
+      <section className="text-gray-100 flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-0 justify-between p-2 lg:p-4 text-xs bg-primaryDarkest text-onPrimaryMedium text-start">
         <span className="uppercase">
           © copyright 2023 Humanize.works UG (haftungsbeschränkt)
         </span>
