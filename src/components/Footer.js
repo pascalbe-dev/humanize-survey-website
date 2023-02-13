@@ -4,7 +4,7 @@ import * as React from "react";
 const Footer = () => {
   return (
     <footer>
-      <section className="flex items-center justify-between p-16 text-sm bg-primaryDarker text-onPrimaryHigh">
+      <section className="flex items-center justify-between p-8 lg:p-16 text-sm bg-primaryDarker text-onPrimaryHigh">
         <div className="flex flex-col gap-4">
           <div className="font-display">
             <span>Culture</span>
@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <section className="text-gray-100 flex items-center justify-between p-4 text-xs bg-primaryDarkest text-onPrimaryMedium">
+      <section className="text-gray-100 flex items-center justify-between p-2 lg:p-4 text-xs bg-primaryDarkest text-onPrimaryMedium">
         <span className="uppercase">
           © copyright 2023 Humanize.works UG (haftungsbeschränkt)
         </span>

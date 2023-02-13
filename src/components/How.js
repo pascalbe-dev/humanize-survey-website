@@ -5,12 +5,12 @@ const How = ({ steps }) => {
   return (
     <section
       id="how"
-      className="flex flex-col gap-4 px-24 py-16 bg-primary text-onPrimaryHigh"
+      className="flex flex-col gap-4 px-8 lg:px-24 py-8 lg:py-16 bg-primary text-onPrimaryHigh"
     >
       <h2 className="font-display text-3xl">
         Analyse der New Work Kultur in 4 einfachen Schritten:
       </h2>
-      <ul className="flex flex-col gap-32 py-32">
+      <ul className="flex flex-col gap-16 lg:gap-32 py-8 lg:py-32">
         {steps.map((step, index) => (
           <li
             data-sal={index % 2 === 0 ? "slide-right" : "slide-left"}
@@ -27,7 +27,7 @@ const How = ({ steps }) => {
                 {step.cta.title}
               </Link>
             </div>
-            <div className="flex-1 flex items-center justify-center max-w-[400px]">
+            <div className="flex-1 hidden lg:flex items-center justify-center max-w-[400px]">
               <img
                 src={"../img/" + step.image}
                 alt="Schritt-Illustration"

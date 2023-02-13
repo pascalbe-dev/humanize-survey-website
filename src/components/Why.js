@@ -3,7 +3,10 @@ import why from "../img/why.svg";
 
 const Why = ({ valuePropositions }) => {
   return (
-    <section id="why" className="flex flex-col gap-8 px-24 py-16">
+    <section
+      id="why"
+      className="flex flex-col gap-8 px-8 lg:px-24 py-8 lg:py-16"
+    >
       <h2 className="font-display text-3xl">Warum Culture Clues?</h2>
       <div className="flex justify-between gap-8">
         <ul className="flex-1 flex flex-col gap-4">
@@ -18,7 +21,7 @@ const Why = ({ valuePropositions }) => {
             </li>
           ))}
         </ul>
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 hidden lg:flex items-center justify-center">
           <img
             src={why}
             alt="Vorteile-Illustration"
