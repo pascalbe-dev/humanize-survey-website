@@ -6,6 +6,18 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `CultureClues`,
+        short_name: `CultureClues`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#243763`,
+        display: `standalone`,
+        icon: `src/img/logo.png`,
+      },
+    },
     "gatsby-plugin-scroll-reveal",
     {
       resolve: `gatsby-omni-font-loader`,
