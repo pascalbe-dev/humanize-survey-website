@@ -33,6 +33,14 @@ const Navbar = () => {
             Jetzt direkt loslegen
           </Link>
         </li>
+        <li className="block lg:hidden">
+          <Link
+            className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
+            to="https://humanize.works"
+          >
+            Loslegen
+          </Link>
+        </li>
       </ul>
     </nav>
   );
