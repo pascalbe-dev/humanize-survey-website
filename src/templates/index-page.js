@@ -13,8 +13,6 @@ export const IndexPageTemplate = ({
   subheading,
   valuePropositions,
   steps,
-  description,
-  intro,
 }) => {
   return (
     <>
@@ -81,19 +79,6 @@ export const pageQuery = graphql`
             link
           }
           image
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
         }
       }
     }
