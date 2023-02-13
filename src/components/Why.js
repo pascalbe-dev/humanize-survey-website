@@ -8,7 +8,11 @@ const Why = ({ valuePropositions }) => {
       <div className="flex justify-between gap-8">
         <ul className="flex-1 flex flex-col gap-4">
           {valuePropositions.map((vp) => (
-            <li key={vp.title} className="flex flex-col gap-4 p-4">
+            <li
+              data-sal="slide-right"
+              key={vp.title}
+              className="flex flex-col gap-4 p-4"
+            >
               <h3 className="text-2xl">{vp.title}</h3>
               <p className="text-onSurfaceMedium">{vp.description}</p>
             </li>

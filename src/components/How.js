@@ -11,8 +11,9 @@ const How = ({ steps }) => {
         Analyse der New Work Kultur in 4 einfachen Schritten:
       </h2>
       <ul className="flex flex-col gap-32 py-32">
-        {steps.map((step) => (
+        {steps.map((step, index) => (
           <li
+            data-sal={index % 2 === 0 ? "slide-right" : "slide-left"}
             key={step.title}
             className="flex justify-between gap-32 items-center p-4 even:flex-row-reverse"
           >
