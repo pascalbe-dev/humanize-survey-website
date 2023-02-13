@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "CultureClues",
+    title: "Culture Clues",
     description:
-      "Der einfachste Weg, Eure New-Work Kultur zu messen: Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit CultureClues helfen wir euch dabei, euer volles Potential zu entfalten.",
+      "Der einfachste Weg, Eure New-Work Kultur zu messen: Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit Culture Clues helfen wir euch dabei, euer volles Potential zu entfalten.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

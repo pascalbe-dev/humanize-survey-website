@@ -2,7 +2,7 @@
 templateKey: index-page
 heading: Der einfachste Weg, Eure New-Work Kultur zu messen
 subheading: >
-  Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit CultureClues helfen wir euch dabei, euer volles Potential zu entfalten.
+  Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit Culture Clues helfen wir euch dabei, euer volles Potential zu entfalten.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

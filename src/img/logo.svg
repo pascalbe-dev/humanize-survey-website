@@ -1,31 +1,20 @@
-<svg width="97" height="64" viewBox="0 0 97 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_1426_558)">
-<path d="M61.5806 19.5643C58.2155 10.1871 48.0309 4.87606 38.3278 7.65412C28.1947 10.5553 22.3109 21.1597 25.2121 31.2931C25.492 32.2707 25.8508 33.2297 26.2783 34.1432C30.2705 42.6946 39.7639 47.0123 48.8515 44.4105C55.6536 42.463 59.6029 35.3449 57.6554 28.5428C57.6419 28.4956 57.6282 28.4485 57.6141 28.4018C56.7295 33.7216 52.875 38.1591 47.5021 39.6974C41.1459 41.5172 34.4449 38.7684 31.2067 33.0125C30.664 32.0517 30.233 31.0189 29.9252 29.9437C27.768 22.4091 32.1426 14.5244 39.6772 12.3672C47.9604 9.99568 56.5579 12.984 61.5806 19.5643Z" fill="#243763"/>
-</g>
-<g filter="url(#filter1_d_1426_558)">
-<path d="M62.274 17.867C54.7419 11.3462 43.2615 11.7137 36.1687 18.8941C28.7615 26.3928 28.8358 38.52 36.3346 45.9274C37.0581 46.642 37.8411 47.3017 38.6618 47.8881C46.3353 53.3817 56.7261 52.4876 63.369 45.7627C68.3413 40.729 68.2912 32.5889 63.2576 27.6166C63.2227 27.5822 63.1876 27.5478 63.1524 27.514C64.9911 32.5838 63.8088 38.3414 59.8812 42.3175C55.2349 47.0211 48.0471 47.9127 42.4019 44.4853C41.4576 43.9142 40.5755 43.2256 39.7799 42.4396C34.2041 36.9319 34.1487 27.9151 39.6565 22.3394C45.7114 16.2097 54.6693 14.5966 62.274 17.867Z" fill="black" fill-opacity="0.38" shape-rendering="crispEdges"/>
-</g>
-<rect x="21" y="61.3187" width="55" height="2" rx="1" fill="black" fill-opacity="0.87"/>
-<defs>
-<filter id="filter0_d_1426_558" x="20.4717" y="6.91678" width="45.109" height="46.2463" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1426_558"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1426_558" result="shape"/>
-</filter>
-<filter id="filter1_d_1426_558" x="26.6615" y="13.2293" width="44.4043" height="46.2479" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1426_558"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1426_558" result="shape"/>
-</filter>
-</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="812.000000pt" viewBox="0 0 1280.000000 812.000000" preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(0.000000,812.000000) scale(0.100000,-0.100000)" fill="#243763" stroke="none">
+        <path d="M4070 8104 c-1442 -117 -2399 -248 -3066 -419 -446 -115 -764 -262
+        -899 -417 -55 -64 -96 -157 -103 -233 -4 -54 0 -77 22 -137 50 -139 150 -236
+        346 -337 298 -153 658 -265 1855 -576 1198 -311 1667 -481 1839 -665 55 -59
+        53 -68 -23 -124 -125 -92 -374 -185 -1001 -372 -629 -188 -927 -293 -1142
+        -400 -248 -124 -382 -237 -455 -385 -24 -48 -27 -66 -28 -155 0 -99 1 -102 43
+        -188 35 -69 61 -105 130 -175 104 -104 202 -171 377 -256 297 -144 616 -236
+        1530 -440 1092 -243 1588 -392 2061 -620 492 -236 800 -485 1069 -865 99 -139
+        256 -307 385 -410 264 -211 653 -410 1085 -557 520 -176 1129 -300 1720 -350
+        l90 -8 -145 -5 c-80 -3 191 -7 602 -8 459 -1 764 2 790 8 24 5 104 17 178 25
+        466 55 901 193 1138 362 397 282 440 670 125 1115 -82 115 -323 357 -453 454
+        -534 399 -1274 710 -2380 999 -434 113 -884 212 -1845 405 -1018 204 -1128
+        228 -1400 297 -342 86 -593 183 -662 255 -18 18 -39 49 -47 68 -13 32 -13 39
+        1 68 48 100 267 191 829 346 605 168 820 249 986 374 158 119 214 283 153 449
+        -105 283 -500 502 -1335 742 -493 141 -949 244 -2180 492 -932 188 -1206 246
+        -1490 316 -480 118 -743 218 -793 301 -62 106 34 213 306 342 373 177 1086
+        349 1957 471 85 12 170 27 188 35 67 27 78 138 17 178 -30 20 -134 20 -375 0z"/>
+    </g>
 </svg>

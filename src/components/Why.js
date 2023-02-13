@@ -4,7 +4,7 @@ import why from "../img/why.svg";
 const Why = ({ valuePropositions }) => {
   return (
     <section id="why" className="flex flex-col gap-8 px-24 py-16">
-      <h2 className="font-display text-3xl">Warum CultureClues?</h2>
+      <h2 className="font-display text-3xl">Warum Culture Clues?</h2>
       <div className="flex justify-between gap-8">
         <ul className="flex-1 flex flex-col gap-4">
           {valuePropositions.map((vp) => (
