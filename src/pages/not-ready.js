@@ -4,12 +4,12 @@ import Layout from "../components/Layout";
 
 const NotReadyPage = () => (
   <Layout>
-    <main className="h-[calc(100vh-96px-244px)] bg-primary flex justify-center items-center">
+    <main className="min-h-[calc(100vh-96px-244px)] bg-primary flex justify-center items-center">
       <div
         data-sal="slide-up"
-        className="flex flex-col gap-8 justify-center items-center"
+        className="m-8 flex flex-col gap-8 justify-center items-center text-center"
       >
-        <h1 className="text-3xl text-onPrimaryHigh">
+        <h1 className="text-3xl text-onPrimaryHigh text-center">
           Wir sind noch nicht soweit 😥
         </h1>
         <p className="text-l text-onPrimaryMedium text-center max-w-xl">

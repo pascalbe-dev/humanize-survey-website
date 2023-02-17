@@ -6,7 +6,7 @@ import landing from "../img/landing.svg";
 const Landing = ({ slogan, description }) => {
   return (
     <section className="h-[calc(100vh-96px)] flex flex-col justify-around">
-      <div />
+      <div className="hidden lg:block" />
       <div className="flex justify-between items-center gap-16 px-8 lg:px-24 py-8 lg:py-0">
         <div
           data-sal="slide-up"
