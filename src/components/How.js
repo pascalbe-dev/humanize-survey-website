@@ -8,7 +8,7 @@ const How = ({ steps }) => {
       className="flex flex-col gap-4 px-8 lg:px-24 py-8 lg:py-16 bg-primary text-onPrimaryHigh"
     >
       <h2 className="font-display text-3xl">
-        Analyse der New Work Kultur in 5 einfachen Schritten:
+        Analyse der New Work Kultur in {steps.length} einfachen Schritten:
       </h2>
       <ul className="flex flex-col gap-16 lg:gap-32 py-8 lg:py-32">
         {steps.map((step, index) => (
