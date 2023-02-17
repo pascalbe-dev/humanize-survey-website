@@ -19,6 +19,8 @@ module.exports = {
       primaryDarkest: "#0E1526",
       onPrimaryHigh: "#FFFFFF",
       onPrimaryMedium: "#FFFFFF74",
+      onPrimaryButton: "#FFFFFF05",
+      onPrimaryButtonHover: "#FFFFFF10",
       accent: "#FF6E31",
       onAccentHigh: "#FFFFFF",
       onAccentMedium: "#FFFFFF74",
