@@ -21,8 +21,8 @@ const NotReadyPage = () => (
           <strong className="text-onPrimaryHigh">
             dann nimm gerne Kontakt mit uns auf!
           </strong>{" "}
-          Das motiviert uns und wir werden uns dann bei dir melden, wenn wir
-          soweit sind.
+          Das motiviert uns und wir können dir dann Bescheid geben, wenn das
+          Tool nutzbar ist.
         </p>
         <div className="flex gap-4">
           <a
