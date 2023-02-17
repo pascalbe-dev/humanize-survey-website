@@ -16,7 +16,7 @@ const Landing = ({ slogan, description }) => {
           <p className="text-onSurfaceMedium">{description}</p>
           <Link
             className="p-4 rounded-lg bg-accent text-onAccentHigh"
-            to="https://humanize.works"
+            to="/not-ready"
           >
             Jetzt direkt loslegen
           </Link>

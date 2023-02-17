@@ -28,7 +28,7 @@ const Navbar = () => {
         <li className="hidden lg:block">
           <Link
             className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
-            to="https://humanize.works"
+            to="/not-ready"
           >
             Jetzt direkt loslegen
           </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <li className="block lg:hidden">
           <Link
             className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
-            to="https://humanize.works"
+            to="/not-ready"
           >
             Loslegen
           </Link>

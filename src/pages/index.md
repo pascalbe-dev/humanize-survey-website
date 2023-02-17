@@ -17,7 +17,7 @@ steps:
       Spare dir die Mühe, eine eigene Umfrage zu entwerfen - das haben unsere Experten bereits für dich erledigt. Erstelle mit unseren Analyse-Templates mit wenigen Clicks eine Umfrage, um die New Work Kultur deines Teams zu messen.
     cta:
       title: zu den Templates
-      link: https://humanize.works
+      link: /not-ready
     image: templates.svg
   - title: >
       Schritt #2: Link kopieren und mit dem Team teilen
@@ -25,7 +25,7 @@ steps:
       Teile den Link zur Umfrage über euren etablierten Kommunikationskanal mit deinen Kolleg:innen. Weil uns eine hohe Teilnahmequote am Herzen liegt, funktioniert die Umfrage ganz ohne Account - schnell und einfach eben.
     cta:
       title: Jetzt direkt loslegen
-      link: https://humanize.works
+      link: /not-ready
     image: link.svg
   - title: >
       Schritt #3: Umfrage ausfüllen
@@ -33,7 +33,7 @@ steps:
       Die Umfragen können in deutsch oder englisch beantwortet werden. Die Fragen sind verständlich und auf den Punkt gebracht. Kurze Erklärungen und Mini-Videos machen den Sinn der Umfrage für jede:n verständlich.
     cta:
       title: zur Beispiel-Umfrage
-      link: https://humanize.works
+      link: /not-ready
     image: survey.png
   - title: >
       Schritt #4: Auswertung ansehen
@@ -41,7 +41,7 @@ steps:
       Keine stundenlange Auswertung und Aufbereitung mit Excel - versprochen. Das übernimmt unser Tool wie von Zauberhand im Hintergrund. Teile die Ergebnisse ganz einfach per Link mit deinem Team oder bette sie in dein Wiki-System ein.
     cta:
       title: zur Beispiel-Auswertung
-      link: https://humanize.works
+      link: /not-ready
     image: evaluation.png
   - title: >
       Schritt #5: Auswertung vergleichen
@@ -49,6 +49,6 @@ steps:
       Du führst regelmäßige Puls-Umfragen durch? Dann kannst du ganz einfach verschiedene Ergebnisse im Vergleich ansehen. Egal, ob du zwischen Teams oder über mehrere Zeiträume vergleichen magst. Das geht ganz einfach.
     cta:
       title: zum Vergleich von Auswertungen
-      link: https://humanize.works
+      link: /not-ready
     image: evaluation.png
 ---
