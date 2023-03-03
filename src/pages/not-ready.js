@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 const NotReadyPage = () => (
   <Layout>
-    <main className="min-h-[calc(100vh-96px-244px)] bg-primary flex justify-center items-center">
+    <main className="min-h-[calc(100vh-96px)] lg:min-h-[calc(100vh-96px-244px)] bg-primary flex justify-center items-center">
       <div
         data-sal="slide-up"
         className="m-8 flex flex-col gap-8 justify-center items-center text-center"
@@ -24,7 +24,7 @@ const NotReadyPage = () => (
           Das motiviert uns und wir können dir dann Bescheid geben, wenn das
           Tool nutzbar ist.
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-col lg:flex-row gap-4">
           <a
             className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
             href="mailto:info@humanize.works?subject=Ich interessiere mich für CultureClues"
