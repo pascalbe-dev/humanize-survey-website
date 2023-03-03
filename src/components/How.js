@@ -15,7 +15,7 @@ const How = ({ steps }) => {
           <li
             data-sal={index % 2 === 0 ? "slide-right" : "slide-left"}
             key={step.title}
-            className="flex justify-between gap-32 items-center p-4 even:flex-row-reverse"
+            className="flex flex-col lg:flex-row justify-between gap-16 lg:gap-32 items-center p-4 lg:even:flex-row-reverse"
           >
             <div className="flex flex-col gap-4 items-start max-w-[800px]">
               <h3 className="text-2xl">{step.title}</h3>
@@ -28,7 +28,7 @@ const How = ({ steps }) => {
               </Link>
             </div>
             <a
-              className="flex-1 hidden lg:flex items-center justify-center max-w-[600px]"
+              className="flex-1 flex items-center justify-center max-w-[600px]"
               href={"../img/" + (step.backgroundImage ?? step.image)}
               target="_blank"
               rel="noreferrer"
