@@ -94,6 +94,19 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "8",
+        matomoUrl: "https://humanizeworks.matomo.cloud",
+        siteUrl: "https://culture-clues.netlify.app",
+        disableCookies: true,
+        enableJSErrorTracking: true,
+        respectDnt: true,
+        trackLoad: false,
+      },
+    },
+    // make sure to keep it last in the array
+    "gatsby-plugin-netlify",
   ],
 };
