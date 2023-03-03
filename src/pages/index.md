@@ -43,7 +43,8 @@ steps:
     cta:
       title: zur Beispiel-Auswertung
       link: /not-ready
-    image: evaluation.png
+    image: evaluation.svg
+    backgroundImage: evaluation-background.svg
   - title: >
       Schritt #5: Auswertung vergleichen
     description: >
