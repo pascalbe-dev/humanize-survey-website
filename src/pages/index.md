@@ -52,5 +52,6 @@ steps:
     cta:
       title: zum Vergleich von Auswertungen
       link: /not-ready
-    image: evaluation.png
+    image: comparison.svg
+    backgroundImage: comparison-background.svg
 ---
