@@ -35,7 +35,6 @@ steps:
       title: zur Beispiel-Umfrage
       link: /not-ready
     image: survey.svg
-    backgroundImage: survey-background.svg
   - title: >
       Schritt #4: Auswertung ansehen
     description: >
@@ -44,7 +43,6 @@ steps:
       title: zur Beispiel-Auswertung
       link: /not-ready
     image: evaluation.svg
-    backgroundImage: evaluation-background.svg
   - title: >
       Schritt #5: Auswertung vergleichen
     description: >
@@ -53,5 +51,4 @@ steps:
       title: zum Vergleich von Auswertungen
       link: /not-ready
     image: comparison.svg
-    backgroundImage: comparison-background.svg
 ---

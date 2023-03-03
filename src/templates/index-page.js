@@ -47,7 +47,6 @@ export const pageQuery = graphql`
             link
           }
           image
-          backgroundImage
         }
       }
     }
