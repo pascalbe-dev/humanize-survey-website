@@ -27,13 +27,18 @@ const How = ({ steps }) => {
                 {step.cta.title}
               </Link>
             </div>
-            <div className="flex-1 hidden lg:flex items-center justify-center max-w-[400px]">
+            <a
+              className="flex-1 hidden lg:flex items-center justify-center max-w-[600px]"
+              href={"../img/" + (step.backgroundImage ?? step.image)}
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={"../img/" + step.image}
                 alt="Schritt-Illustration"
-                className="min-w-[300px]"
+                className="min-w-[300px] drop-shadow-2xl"
               />
-            </div>
+            </a>
           </li>
         ))}
       </ul>

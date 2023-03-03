@@ -34,7 +34,8 @@ steps:
     cta:
       title: zur Beispiel-Umfrage
       link: /not-ready
-    image: survey.png
+    image: survey.svg
+    backgroundImage: survey-background.svg
   - title: >
       Schritt #4: Auswertung ansehen
     description: >

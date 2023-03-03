@@ -1,8 +1,8 @@
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import IndexPageTemplate from "../components/index-page-template";
 import Layout from "../components/Layout";
+import IndexPageTemplate from "../components/index-page-template";
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
@@ -47,6 +47,7 @@ export const pageQuery = graphql`
             link
           }
           image
+          backgroundImage
         }
       }
     }
