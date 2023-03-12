@@ -11,7 +11,7 @@ const TemplateWrapper = ({ children }) => {
       <Helmet>
         <html
           className="scroll-smooth scroll-p-24 text-onSurfaceHigh"
-          lang="en"
+          lang="de"
         />
         <title>{title}</title>
         <meta name="description" content={description} />
