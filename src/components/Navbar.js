@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="#how">Wie es funktioniert?</Link>
         </li>
         <li className="hidden lg:block">
-          <Link to="#why">Warum CulutreClues?</Link>
+          <Link to="#why">Warum CultureClues?</Link>
         </li>
         <li className="hidden lg:block">
           <Link
