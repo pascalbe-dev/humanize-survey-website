@@ -7,7 +7,7 @@ const Why = ({ valuePropositions }) => {
       id="why"
       className="flex flex-col gap-8 px-8 lg:px-24 py-8 lg:py-16"
     >
-      <h2 className="font-display text-3xl">Warum Culture Clues?</h2>
+      <h2 className="font-display text-3xl">Warum culturyze?</h2>
       <div className="flex justify-between gap-8">
         <ul className="flex-1 flex flex-col gap-4">
           {valuePropositions.map((vp) => (

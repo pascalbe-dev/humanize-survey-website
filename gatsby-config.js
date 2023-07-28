@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Culture Clues - Macht New Work Kultur für Tech-Teams messbar",
+    title: "culturyze - Macht New Work Kultur für Tech-Teams messbar",
     description:
-      "Der einfachste Weg, Eure New Work Kultur zu messen: Tech-Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit Culture Clues helfen wir euch dabei, euer volles Potential zu entfalten.",
+      "Der einfachste Weg, Eure New Work Kultur zu messen: Tech-Teams, die ihre Kultur aktiv messen und weiterentwickeln erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit culturyze helfen wir euch dabei, euer volles Potential zu entfalten.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `CultureClues`,
-        short_name: `CultureClues`,
+        name: `culturyze`,
+        short_name: `culturyze`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#243763`,
@@ -99,7 +99,7 @@ module.exports = {
       options: {
         siteId: "8",
         matomoUrl: "https://humanizeworks.matomo.cloud",
-        siteUrl: "https://culture-clues.netlify.app",
+        siteUrl: "https://culturyze.netlify.app",
         disableCookies: true,
         enableJSErrorTracking: true,
         respectDnt: true,

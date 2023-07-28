@@ -7,8 +7,7 @@ const Footer = () => {
       <section className="flex items-center justify-between gap-4 p-8 lg:p-16 text-sm bg-primaryDarker text-onPrimaryHigh">
         <div className="flex flex-col gap-4">
           <div className="font-display">
-            <span>Culture</span>
-            <span className="text-onPrimaryMedium">Clues</span>
+            <span>culturyze</span>
           </div>
           <span>Ein Tool der Humanize.works UG.</span>
         </div>

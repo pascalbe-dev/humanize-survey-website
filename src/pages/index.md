@@ -2,7 +2,7 @@
 templateKey: index-page
 heading: Der einfachste Weg, Eure New Work Kultur zu messen
 subheading: >
-  Tech-Teams, die ihre Kultur aktiv messen und weiterentwickeln, erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit Culture Clues helfen wir euch dabei, euer volles Potential zu entfalten.
+  Tech-Teams, die ihre Kultur aktiv messen und weiterentwickeln, erleben höhere Zufriedenheit, Innovationskraft und Produktivität. Mit culturyze helfen wir euch dabei, euer volles Potential zu entfalten.
 valuePropositions:
   - title: Schnell & Einfach
     description: Analysiere die New Work Kultur in deinem Tech-Team mit unseren vorgefertigten Umfrage-Vorlagen. Ohne Account - ohne Schnickschnack - ohne Kosten!

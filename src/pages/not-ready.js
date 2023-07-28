@@ -17,7 +17,7 @@ const NotReadyPage = () => (
           sind wir noch nicht soweit mit der Entwicklung.
         </p>
         <p className="text-l text-onPrimaryMedium text-center max-w-xl">
-          Wenn du Interesse daran hast, CultureClues zu verwenden,{" "}
+          Wenn du Interesse daran hast, culturyze zu verwenden,{" "}
           <strong className="text-onPrimaryHigh">
             dann nimm gerne Kontakt mit uns auf!
           </strong>{" "}
@@ -27,7 +27,7 @@ const NotReadyPage = () => (
         <div className="flex flex-col lg:flex-row gap-4">
           <a
             className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
-            href="mailto:info@humanize.works?subject=Ich interessiere mich für CultureClues"
+            href="mailto:info@humanize.works?subject=Ich interessiere mich für culturyze"
           >
             Kontakt aufnehmen
           </a>

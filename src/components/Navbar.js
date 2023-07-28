@@ -11,10 +11,9 @@ const Navbar = () => {
     >
       <div className="px-8 flex items-center gap-2 text-xl lg:text-3xl font-display">
         <Link to="/" className="flex gap-4 items-center" title="Logo">
-          <img src={logo} alt="Culture Clues" className="w-10 lg:w-20" />
+          <img src={logo} alt="culturyze logo" className="w-10 lg:w-20" />
           <div className="flex">
-            <span>Culture</span>
-            <span className="text-onSurfaceDisabled">Clues</span>
+            <span>culturyze</span>
           </div>
         </Link>
       </div>
@@ -23,7 +22,7 @@ const Navbar = () => {
           <Link to="#how">Wie es funktioniert?</Link>
         </li>
         <li className="hidden lg:block">
-          <Link to="#why">Warum CultureClues?</Link>
+          <Link to="#why">Warum culturyze?</Link>
         </li>
         <li className="hidden lg:block">
           <Link
