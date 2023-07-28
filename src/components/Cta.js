@@ -9,7 +9,9 @@ const Cta = () => {
       </h2>
       <Link
         className="p-4 rounded-lg bg-accent text-onAccentHigh"
-        to="/not-ready"
+        to="https://app.culturyze.de/topics"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Jetzt direkt loslegen
       </Link>

@@ -27,7 +27,9 @@ const Navbar = () => {
         <li className="hidden lg:block">
           <Link
             className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
-            to="/not-ready"
+            to="https://app.culturyze.de/topics"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Jetzt direkt loslegen
           </Link>
@@ -35,7 +37,9 @@ const Navbar = () => {
         <li className="block lg:hidden">
           <Link
             className="p-4 bg-orange-600 rounded-lg bg-accent text-onAccentHigh"
-            to="/not-ready"
+            to="https://app.culturyze.de/topics"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Loslegen
           </Link>
