@@ -2,6 +2,8 @@ import { Link } from "gatsby";
 import * as React from "react";
 
 const How = ({ steps }) => {
+  const shouldOpenInNewTab = (link) => link.startsWith("http");
+
   return (
     <section
       id="how"
@@ -24,6 +26,7 @@ const How = ({ steps }) => {
               <Link
                 className="p-4 rounded-lg bg-accent text-onAccentHigh"
                 to={step.cta.link}
+                target={shouldOpenInNewTab(step.cta.link) ? "_blank" : "_self"}
               >
                 {step.cta.title}
               </Link>

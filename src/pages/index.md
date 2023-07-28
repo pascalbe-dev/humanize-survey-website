@@ -17,7 +17,7 @@ steps:
       Spare dir die Mühe, eine eigene Umfrage zu entwerfen - das haben unsere Experten bereits für dich erledigt. Erstelle mit unseren Analyse-Vorlagen mit wenigen Clicks eine Umfrage, um die New Work Kultur deines Tech-Teams zu messen.
     cta:
       title: zu den Vorlagen
-      link: /not-ready
+      link: https://app.culturyze.de/topics
     image: templates.svg
   - title: >
       Schritt #2: Link kopieren und mit dem Team teilen
@@ -25,7 +25,7 @@ steps:
       Teile den Link zur Umfrage mit deinem Team. Weil uns eine hohe Teilnahmequote am Herzen liegt, funktioniert die Umfrage ganz ohne Account - schnell und einfach eben.
     cta:
       title: Jetzt direkt loslegen
-      link: /not-ready
+      link: https://app.culturyze.de/topics
     image: link.svg
   - title: >
       Schritt #3: Umfrage ausfüllen
@@ -33,16 +33,16 @@ steps:
       Die Umfragen können in deutsch oder englisch beantwortet werden. Die Fragen sind verständlich und auf den Punkt gebracht. Kurze Erklärungen und Mini-Videos machen den Sinn der Umfrage für jedes Teammitglied verständlich.
     cta:
       title: zur Beispiel-Umfrage
-      link: /not-ready
-    image: survey.svg
+      link: https://app.culturyze.de/participate/intro?id=1870e4c0-502b-4929-a121-3d0e7498ef69
+    image: survey.png
   - title: >
       Schritt #4: Auswertung ansehen
     description: >
       Keine stundenlange Auswertung und Aufbereitung mit Excel - versprochen. Das übernimmt unser Tool wie von Zauberhand im Hintergrund. Teile die Ergebnisse ganz einfach per Link mit deinem Team oder bette sie in dein Wiki-System ein.
     cta:
       title: zur Beispiel-Auswertung
-      link: /not-ready
-    image: evaluation.svg
+      link: https://app.culturyze.de/results?id=8d11f2f3-4e3c-461c-a2f4-e85f1b64f95c&questionId=1
+    image: evaluation.png
   - title: >
       Schritt #5: Auswertung vergleichen
     description: >
