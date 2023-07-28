@@ -15,12 +15,17 @@ const Footer = () => {
           <span className="uppercase">Rechtliches</span>
           <ul className="underline">
             <li>
-              <Link to="https://humanize.works/privacy" target={"_blank"}>
-                Datenschutzerklärung
+              <Link to="/privacy-policy-website" target={"_blank"}>
+                Datenschutzerklärung der Website
               </Link>
             </li>
             <li>
-              <Link to="https://humanize.works/impressum" target={"_blank"}>
+              <Link to="/privacy-policy-app" target={"_blank"}>
+                Datenschutzerklärung der Web-App
+              </Link>
+            </li>
+            <li>
+              <Link to="/impressum" target={"_blank"}>
                 Impressum
               </Link>
             </li>
