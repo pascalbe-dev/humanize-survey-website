@@ -97,9 +97,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: "8",
+        siteId: "9",
         matomoUrl: "https://humanizeworks.matomo.cloud",
-        siteUrl: "https://culturyze.netlify.app",
+        siteUrl: "https://culturyze.de",
         disableCookies: true,
         enableJSErrorTracking: true,
         respectDnt: true,
