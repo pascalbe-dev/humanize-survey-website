@@ -50,7 +50,7 @@ steps:
       link: https://app.culturyze.de/results?id=8d11f2f3-4e3c-461c-a2f4-e85f1b64f95c&questionId=1
     image:
       filename: evaluation.png
-      link: https://app.culturyze.de/participate/intro?id=1870e4c0-502b-4929-a121-3d0e7498ef69
+      link: https://app.culturyze.de/results?id=8d11f2f3-4e3c-461c-a2f4-e85f1b64f95c&questionId=1
   - title: >
       Schritt #5: Auswertung vergleichen
     description: >
