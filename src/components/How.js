@@ -33,12 +33,12 @@ const How = ({ steps }) => {
             </div>
             <a
               className="flex-1 flex items-center justify-center max-w-[600px]"
-              href={"../img/" + (step.backgroundImage ?? step.image)}
+              href={step.image.link}
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={"../img/" + step.image}
+                src={"../img/" + step.image.filename}
                 alt="Schritt-Illustration"
                 className="min-w-[300px] drop-shadow-2xl"
               />

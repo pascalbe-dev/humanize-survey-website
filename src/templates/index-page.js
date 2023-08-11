@@ -46,7 +46,10 @@ export const pageQuery = graphql`
             title
             link
           }
-          image
+          image {
+            filename
+            link
+          }
         }
       }
     }

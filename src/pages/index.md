@@ -18,7 +18,9 @@ steps:
     cta:
       title: zu den Vorlagen
       link: https://app.culturyze.de/topics
-    image: templates.svg
+    image:
+      filename: templates.svg
+      link: https://app.culturyze.de/topics
   - title: >
       Schritt #2: Link kopieren und mit dem Team teilen
     description: >
@@ -26,7 +28,9 @@ steps:
     cta:
       title: Jetzt direkt loslegen
       link: https://app.culturyze.de/topics
-    image: link.svg
+    image:
+      filename: link.svg
+      link: https://app.culturyze.de/topics
   - title: >
       Schritt #3: Umfrage ausfüllen
     description: >
@@ -34,7 +38,9 @@ steps:
     cta:
       title: zur Beispiel-Umfrage
       link: https://app.culturyze.de/participate/intro?id=1870e4c0-502b-4929-a121-3d0e7498ef69
-    image: survey.png
+    image:
+      filename: survey.png
+      link: https://app.culturyze.de/participate/intro?id=1870e4c0-502b-4929-a121-3d0e7498ef69
   - title: >
       Schritt #4: Auswertung ansehen
     description: >
@@ -42,7 +48,9 @@ steps:
     cta:
       title: zur Beispiel-Auswertung
       link: https://app.culturyze.de/results?id=8d11f2f3-4e3c-461c-a2f4-e85f1b64f95c&questionId=1
-    image: evaluation.png
+    image:
+      filename: evaluation.png
+      link: https://app.culturyze.de/participate/intro?id=1870e4c0-502b-4929-a121-3d0e7498ef69
   - title: >
       Schritt #5: Auswertung vergleichen
     description: >
@@ -50,5 +58,7 @@ steps:
     cta:
       title: zum Vergleich von Auswertungen
       link: /not-ready
-    image: comparison.svg
+    image:
+      filename: comparison.svg
+      link: /not-ready
 ---
