@@ -19,10 +19,10 @@ const Navbar = () => {
       </div>
       <ul className="flex flex-row items-center gap-8 py-4 px-8 text-lg text-onSurfaceMedium">
         <li className="hidden lg:block">
-          <Link to="#how">Wie es funktioniert?</Link>
+          <Link to="/#how">Wie es funktioniert?</Link>
         </li>
         <li className="hidden lg:block">
-          <Link to="#why">Warum culturyze?</Link>
+          <Link to="/#why">Warum culturyze?</Link>
         </li>
         <li className="hidden lg:block">
           <Link
