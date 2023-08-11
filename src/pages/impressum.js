@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 const ImpressumPage = () => (
   <Layout>
-    <main className="min-h-[calc(100vh-96px)] p-20 m-auto max-w-6xl flex flex-col gap-4">
+    <main className="min-h-[calc(100vh-96px)] p-8 lg:p-20 m-auto max-w-6xl flex flex-col gap-4">
       <h1 className="text-5xl">Impressum</h1>
       <h2 className="text-xl">Angaben gemäß § 5 TMG</h2>
       <p className="text-onSurfaceMedium">
@@ -52,7 +52,7 @@ const ImpressumPage = () => (
       </p>
 
       <h2 className="text-xl">
-        Verbraucherstreitbeilegung/Universalschlichtungsstelle
+        Verbraucherstreitbeilegung / Universalschlichtungsstelle
       </h2>
       <p className="text-onSurfaceMedium">
         Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren

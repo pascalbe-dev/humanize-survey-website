@@ -4,10 +4,10 @@ import Layout from "../components/Layout";
 
 const PrivacyPolicyWebsitePage = () => (
   <Layout>
-    <main className="min-h-[calc(100vh-96px)] p-20 m-auto max-w-6xl flex flex-col gap-4">
-      <h1 className="text-5xl flex items-end gap-4">
-        Datenschutzerklärung
-        <span className="text-xl text-onSurfaceDisabled">
+    <main className="min-h-[calc(100vh-96px)] p-8 lg:p-20 m-auto max-w-6xl flex flex-col gap-4">
+      <h1 className="text-4xl lg:text-5xl flex flex-col lg:flex-row lg:items-end gap-4">
+        <span>Datenschutz-Erklärung</span>
+        <span className="text-base lg:text-xl text-onSurfaceDisabled">
           (für culturyze.de)
         </span>
       </h1>
